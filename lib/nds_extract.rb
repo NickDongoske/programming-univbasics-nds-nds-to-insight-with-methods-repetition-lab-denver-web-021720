@@ -51,7 +51,9 @@ def total_gross(source)
   hash = directors_totals
   names = list_of_directors(source)
   
-  index < names.count do
+  index < names.length do
+    
+    
     
   
   # binding.pry
