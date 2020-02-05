@@ -53,7 +53,7 @@ def total_gross(source)
   
   index < names.length do
     total += hash[names[index]]
-    i += 1
+    index += 1
     
     
   end
