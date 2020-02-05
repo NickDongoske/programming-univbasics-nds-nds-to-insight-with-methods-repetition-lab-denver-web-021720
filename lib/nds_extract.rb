@@ -52,7 +52,7 @@ def total_gross(source)
   names = list_of_directors(source)
   
   index < names.length do
-    total += hash[name[i]]
+    total += hash[names[i]]
     i += 1
     
     
