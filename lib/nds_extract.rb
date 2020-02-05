@@ -53,10 +53,11 @@ def total_gross(source)
   
   index < names.length do
     total += hash[dir_name]
+    i += 1
     
     
-  
-  # binding.pry
+  end
+  total
   
 end
 
